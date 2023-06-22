@@ -23,7 +23,7 @@ docker container ls -a
 ```
 # Schritt 2:
 # create new container and check for /test_data/README 
-docker run -it --name=container-test-vol2 --mount target=/test_data,source=test-vol ubuntu bash
+docker run -it --name=container-test-vol2 --mount type=volume,target=/test_data,source=test-vol ubuntu bash
 ab45# ls -la /test_data/README 
 ```
 
@@ -35,3 +35,10 @@ docker rm container-test-vol
 docker rm container-test-vol2
 docker volume rm test-vol
 ```
+
+## Alternative with nginx 
+
+```
+docker run -d --name nginx --mount target=/test_data,source=test-vol bitnami/nginx:latest 
+```
+
