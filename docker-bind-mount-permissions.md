@@ -20,7 +20,8 @@ exit
 cd /home/kurs/nginx/
 sudo chown -R kurs:kurs html
 # Neue Verzeichnisse und Dateien werden mit der Gruppe kurs angelegt
-chmod -R g+s html 
+chmod -R g+s html
+setfacl -d -m g::rwx html
 docker run --rm -it --mount type=bind,source=/home/kurs/nginx/html,target=/usr/share/nginx/html --name=nginx-test nginx bash
 # in container
 cd /usr/share/nginx/html
