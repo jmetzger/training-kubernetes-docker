@@ -40,6 +40,7 @@
      * [Überblick](storage-overview.md) 
      * [Volumes](storage-volumes.md) 
      * [bind-mounts](docker-bind-mount.md)
+     * [bind-mounts-permissions](docker-bind-mounts-permissions.md)
      
   1. Docker Compose
      * [yaml-format](yaml-format.md)
