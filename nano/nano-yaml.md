@@ -1,4 +1,4 @@
-#  nano (einrückung für yaml-dateien aktivieren
+#  nano (einrückung für yaml-dateien aktivieren)
 
 ## Ubuntu (im Unterverzeichnis /etc/nanorc - systemweit) 
 
