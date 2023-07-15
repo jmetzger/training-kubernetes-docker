@@ -8,6 +8,7 @@ kubectl get pods
 
 # Aufbau des Befehls  
 # kubectl run NAME --image=IMAGE_EG_FROM_DOCKER
+
 # Ein Beispiel
 kubectl run nginx --image=nginx: 
 
