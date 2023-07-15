@@ -1,4 +1,4 @@
-# Einen Pod starten 
+# Einen Pod starten (und wieder löschen)
 
 ## Beispiel 1 (das funktioniert)
 
