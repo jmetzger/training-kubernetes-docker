@@ -10,7 +10,7 @@ kubectl get pods
 # kubectl run NAME --image=IMAGE_EG_FROM_DOCKER
 
 # Ein Beispiel
-kubectl run nginx --image=nginx: 
+kubectl run nginx --image=nginx:1.25.1
 
 kubectl get pods 
 # Alle nodes anzeigen
