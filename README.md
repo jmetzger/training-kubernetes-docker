@@ -73,6 +73,7 @@
      * [Remote-Verbindung zu Kubernetes (microk8s) einrichten](microk8s/connect-from-remote.md)
      * [Bash completion installieren](kubectl/bash-completion.md)
      * [vim support for yaml](vim/vim-yaml.md)
+     * [nano-support for yaml](nano/nano-yaml.md)
      * [Ingress controller in microk8s aktivieren](microk8s/ingress.md) 
 
   1. Kubernetes Praxis API-Objekte 
