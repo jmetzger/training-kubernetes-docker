@@ -29,6 +29,13 @@ kubectl get pods
 kubectl describe pods foo2 
 ```
 
+## Beide Pods wieder löschen
+
+```
+kubectl delete pods nginx foo2 
+kubectl get pods
+```
+
 ## Referenz:
 
   * https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#run
