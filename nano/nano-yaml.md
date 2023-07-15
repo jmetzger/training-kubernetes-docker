@@ -1,4 +1,4 @@
-#  nano (Einrückung(Highlightning für yaml-dateien aktivieren)
+#  nano (Einrückung/Highlightning für yaml-dateien aktivieren)
 
 ## Ubuntu (im Unterverzeichnis /etc/nanorc - systemweit) 
 
@@ -14,7 +14,7 @@ nano --version
 
 ```
 # 2.1 Syntax Hightlightning 
-echo "include /usr/share/nano/yaml.nano" >> /etc/nanorc 
+echo "include /usr/share/nano/yaml.nanorc" >> /etc/nanorc 
 # 2.2 Automatische Einrückung 
 echo "set autoindent" >> /etc/nanorc
 # 2.3 Einrückung durch Tab 2 Stellen 
