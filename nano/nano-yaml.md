@@ -1,4 +1,4 @@
-#  nano (einrückung für yaml-dateien aktivieren)
+#  nano (Einrückung(Highlightning für yaml-dateien aktivieren)
 
 ## Ubuntu (im Unterverzeichnis /etc/nanorc - systemweit) 
 
@@ -6,7 +6,7 @@
 
 ```
 # - Es sollte mindestens die Version 5.9
-# - Die kommt mir der Datei für Syntax-Highlightning
+# - Die kommt mit der Datei für Syntax-Highlightning
 nano --version
 ```
 
