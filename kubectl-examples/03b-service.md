@@ -39,7 +39,6 @@ kubectl apply -f .
 
 ## Schritt 2:
 
-
 ```
 # 02-svc.yml 
 apiVersion: v1
